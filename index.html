@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Mi página web</title>
+<meta charset="UTF-8">
+</head>
+    
+
+<body>
+<a href="servicios.html">Ir a  Servicios</a>
+    <h1>Algunos  componentes html</h1>
+    <p>Párrafo</p>
+    Crear tabla
+    <table width="200" border="1" bgcolor="white">
+    <tr>
+        <th>titulo 1</th>
+        <th>titulo 2</th></tr>
+    <tr>
+        <td>dato 1</td>
+        <td>dato 2</td></tr>
+    </table>
+    
+    Crear un select<br>
+    <select name="lista1">
+        <option>Valor1</option>
+        <option>Valor2</option>
+        <option>Valor3</option>
+    </select>
+    Crear formulario<br>
+    <form name="formulario1" action="/recursosenservidor" >
+    <fieldset>
+        <legend>Persona:</legend>
+        Name:  <input type="text" name="nombre" /><br/>
+        Email:  <input type="text" name="correo" /><br/>
+        <button type="submit">
+        Enviar datos</button>
+    </fieldset>
+        
+    </form>
+    
+    <!--radio button se usa para elegir una opción de varias en un form-->
+    <form>
+      <legend><h1>Elige una bebida</h1></legend>
+        <label>
+            <input type="radio" name="bebida" value="1"> Gaseosa
+        </label>
+        <label>
+            <input type="radio" name="bebida" value="2"> Jugo natural
+        </label>
+        <label>
+            <input type="radio" name="bebida" value="3"> Limonada
+        </label>
+   </form>
+    <!--crear checklist-->
+    
+        <h1>¿Con quién  saldrías a explorar la montaña?</h1>
+    <input type="checkbox" id="compañero1" name="acompañante1" value="amigo">
+        <label for="acompañante1">
+        Amigo</label><br>
+    <input type="checkbox" id="compañero2" name="acompañante2" value="mascota">
+        <label for="acompañante2">Mi perro</label><br>
+    <input type="checkbox" id="compañero3" name="acompañante3" value="novio">
+        <label for="acompañante3">Novio</label><br>
+    
+    
+
+</body>
+</html>
